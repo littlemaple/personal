@@ -2,11 +2,8 @@ package rainbow.com.simple_net_framework.base;
 
 import android.util.Log;
 
-import org.apache.http.HttpStatus;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 

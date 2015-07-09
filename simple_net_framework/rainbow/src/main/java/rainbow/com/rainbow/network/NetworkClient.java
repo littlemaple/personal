@@ -1,15 +1,9 @@
 package rainbow.com.rainbow.network;
 
-import android.os.MessageQueue;
-
-import org.json.JSONObject;
-
 import java.io.File;
 
 import rainbow.com.rainbow.bean.AccountProxy;
 import rainbow.com.simple_net_framework.base.Request;
-import rainbow.com.simple_net_framework.base.Response;
-import rainbow.com.simple_net_framework.core.RequestQueue;
 import rainbow.com.simple_net_framework.proxy.NetProxy;
 import rainbow.com.simple_net_framework.request.JsonRequest;
 
