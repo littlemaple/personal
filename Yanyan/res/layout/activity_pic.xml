@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageSwitcher 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+    	android:id="@+id/mypng">   
+    </ImageSwitcher>
+    
+    <TextView 
+        android:id="@+id/selftext"
+        android:background="#b6bff3"
+        android:textColor="#f4204a"
+        android:textSize="20sp"
+        android:maxLines="2"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bottom_bg"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:id="@+id/backBtn"
+            android:text="上一页"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_back"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/audioBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="显示"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_back"/>
+        
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/NextBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="下一页"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_back"/>
+    </LinearLayout>
+
+</LinearLayout>

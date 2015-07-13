@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_list"
+    android:orientation="vertical" >
+<!--     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="70dp"
+	        android:layout_height="wrap_content">
+        </ImageView>
+        <EditText 
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:id="@+id/textSong"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:textColor="#adfa66"
+	        android:textSize="25sp"/>
+    </LinearLayout> -->
+    
+    
+    <TextView 
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textSong"
+	        android:textColor="#f21416"
+	        android:textSize="25sp"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|bottom"
+            android:text="本地"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:background="#16d187"/>
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/textSinger"
+            android:textSize="10sp"
+            android:textColor="#8686f2"
+            android:layout_weight="1"/>
+    </LinearLayout>
+     
+    <View 
+        android:layout_height="2dp"
+        android:layout_width="fill_parent"
+        android:background="#000000"/>
+
+</LinearLayout>
