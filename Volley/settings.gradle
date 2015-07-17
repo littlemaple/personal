@@ -1,0 +1,2 @@
+include ':app', ':volleylib'
+project(':volleylib').projectDir = new File('volley')

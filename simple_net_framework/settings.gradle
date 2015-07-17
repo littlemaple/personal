@@ -1,1 +1,1 @@
-include  ':rainbow', ':app'
+include  ':rainbow', ':app', ':processor'
