@@ -27,7 +27,10 @@ public class UITester extends InstrumentationTestCase {
     }
 
     public void testAdd() {
-        UiObject2 oneBtn = device.findObject(By.text("9"));
+        device.pressHome();
+
+        device.waitForIdle(500);
+        UiObject2 oneBtn = device.findObject(By.text(""));
         oneBtn.click();
         device.waitForIdle(500);
         UiObject2 twoBtn = device.findObject(By.text("6"));
